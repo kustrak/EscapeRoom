@@ -390,37 +390,37 @@
 </head>
 <body>
     <div class="container">
-        <h1>KRIŽALJKA</h1>
-        <p class="subtitle">~ Riješi zagonetku i pronađi put do spasa ~</p>
+        <h1>CROSSWORD</h1>
+        <p class="subtitle">~ Solve the puzzle and find the way to salvation ~</p>
 
         <div class="clues">
-            <h3>STOL 7 JE U PANICI</h3>
-            <h3>NARUDŽBA JE IZGUBLJENA</h3>
-            <h3>GOSTI ČEKAJU</h3>
-            <h3>PITANJA SE KRIJU NEGDJE U REDU 6 ODOZGORA</h3>
+            <h3>TABLE 7 IS IN PANIC</h3>
+            <h3>ORDER IS LOST</h3>
+            <h3>GUESTS ARE WAITING</h3>
+            <h3>THE QUESTIONS ARE HIDDEN SOMEWHERE IN ROW 6 FROM THE TOP</h3>
             <div class="clue-item">
                 <span class="clue-number"></span>
-                <span class="clue-text">Piće od 9 slova</span>
+                <span class="clue-text">9 letter drink</span>
             </div>
             <div class="clue-item">
                 <span class="clue-number"></span>
-                <span class="clue-text">Uzmi slova</span>
+                <span class="clue-text">Take the letters</span>
             </div>
             <div class="clue-item">
                 <span class="clue-number"></span>
-                <span class="clue-text">Dobit ćeš ime pića</span>
+                <span class="clue-text">You will get the name of the drink</span>
             </div>
             <div class="clue-item">
                 <span class="clue-number"></span>
-                <span class="clue-text">Zbroji sve brojeve</span>
+                <span class="clue-text">Add up all the numbers</span>
             </div>
             <div class="clue-item">
                 <span class="clue-number"></span>
-                <span class="clue-text">To je tvoj broj</span>
+                <span class="clue-text">That's your number</span>
             </div>
             <div class="clue-item">
                 <span class="clue-number"></span>
-                <span class="clue-text">HINT - BANANA - B-1 A-3 ITD, ZBROJI SVE ZAJEDNO I DOBIJ KOD </span>
+                <span class="clue-text">HINT - BANANA - B-1 A-3 ETC. ADD IT ALL TOGETHER AND GET A CODE </span>
             </div>
             
         </div>
@@ -428,32 +428,32 @@
         <div class="crossword-grid" id="crosswordGrid"></div>
 
         <div class="buttons">
-            <button class="btn btn-check" onclick="checkAnswers()">PROVJERI ODGOVORE</button>
-            <button class="btn btn-reset" onclick="resetCrossword()">POČNI ISPOČETKA</button>
+            <button class="btn btn-check" onclick="checkAnswers()">CHECK ANSWERS</button>
+            <button class="btn btn-reset" onclick="resetCrossword()">START FROM THE BEGINNING</button>
         </div>
 
-        <p class="footer">Powered by <strong>Qurko</strong> — Dinamični QR doživljaj</p>
+        <p class="footer">Powered by <strong>Qurko</strong> — Dynamic QR experience</p>
     </div>
 
     <div class="success-modal" id="successModal">
         <div class="success-content">
             <div class="success-icon">🎉</div>
-            <h2>BRAVO!</h2>
-            <p>Uspješno ste riješili križaljku!<br></p>
+            <h2>GREAT!</h2>
+            <p>You have successfully solved the crossword puzzle!</p>
         </div>
     </div>
 
     <script>
         const answers = [
             'CRES',
-            'USTIMA',
-            'BARKA',
-            'AUTOM',
-            'LIMUN',
+            'UNIJE',
+            'BRIDGE',
+            'ANISE',
+            'LOŠINJ',
             'ILOVIK',
-            'BROJEVA',
-            'RIJEKA',
-            'ELEMENT'
+            'BAIT',
+            'RELAXING',
+            'EXPLORE'
         ];
 
         // Generate crossword grid
